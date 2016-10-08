@@ -5,22 +5,19 @@
     <groupId>bhz</groupId>
     <artifactId>bhz-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <modules>
-        <module>../bhz-sys</module>
-    </modules>
     <packaging>pom</packaging>
     <name>bhz-parent</name>
     <url>http://maven.apache.org</url>
 
     <!-- 进行聚合的子项目 -->
-    <!--
+    <!--    -->
     <modules>
         <module>../bhz-com</module>
         <module>../bhz-sys</module>
-         <module>../bhz-sys-facade</module>
-         <module>../bhz-sys-service</module>
+        <module>../bhz-sys-facade</module>
+        <module>../bhz-sys-service</module>
     </modules>
-    -->
+
 
 
     <!-- 配置私服工厂 -->
@@ -237,6 +234,11 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.ojdbc7</groupId>-->
+            <!--<artifactId>ojdbc7</artifactId>-->
+            <!--<version>${ojdbc7.version}</version>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
@@ -296,6 +298,11 @@
             <version>${jedis.version}</version>
         </dependency>
         <!-- dubbox jar begin -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo</artifactId>
+            <version>${dubbo.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-core</artifactId>
