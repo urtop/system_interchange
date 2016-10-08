@@ -14,18 +14,18 @@
 
     <dubbo:application name="${dubbox.application}" owner="programmer" organization="dubbox"/>
 
-	zookeeper注册中心
+	<!-- zookeeper注册中心 -->
     <dubbo:registry address="${dubbox.registry.address}"/>
 
     <dubbo:annotation package="bhz" />
-
-    kryo实现序列化
+    
+    <!-- kryo实现序列化 -->
     <dubbo:protocol name="dubbo" serialization="kryo" optimizer="bhz.sys.serial.SerializationOptimizerImpl" />
-
-	rest
+   
+	<!-- rest -->
     <dubbo:protocol name="rest" server="${dubbox.rest.server}" port="${dubbox.rest.port}" contextpath="${dubbox.rest.contextpath}" threads="${dubbox.rest.threads}" accepts="${dubbox.rest.accepts}" />
 
-     
+    <!--<bean id="sysUserService" class="bhz.sys.service.SysUserService" />-->
    	<!-- 具体的实现bean -->
 	<!--
 	<bean id="sysUserService" class="bhz.sys.service.SysUserService" />
@@ -34,6 +34,5 @@
 	<!--  
 	<dubbo:service interface="bhz.sys.facade.SysUserFacade" ref="sysUserService" protocol="rest,dubbo" />
 	-->
-	
-	
+
 </beans>

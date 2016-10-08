@@ -5,9 +5,8 @@ import org.springframework.stereotype.Service;
 import bhz.sys.entity.SysUser;
 import bhz.sys.facade.SysUserFacade;
 
-
 @Service("sysUserService")
-@com.alibaba.dubbo.config.annotation.Service(interfaceClass=bhz.sys.facade.SysUserFacade.class, protocol = {"rest", "dubbo"})
+@com.alibaba.dubbo.config.annotation.Service(interfaceClass=SysUserFacade.class, protocol = {"rest", "dubbo"})
 public class SysUserService implements SysUserFacade {
 
 
@@ -15,7 +14,7 @@ public class SysUserService implements SysUserFacade {
 		//http://localhost:8888/bhz-sys-service/sysUserService/testget
 		System.out.println("测试...get");
 	}
-	
+
 	public SysUser getUser() {
 		//http://localhost:8888/bhz-sys-service/sysUserService/getUser
     	SysUser user = new SysUser();
@@ -44,11 +43,11 @@ public class SysUserService implements SysUserFacade {
     	user.setName("张三");
     	return user;
 	}
-	
+
 	public void testpost() {
     	System.out.println("测试...post");
 	}
-    
+
 	public SysUser postUser(SysUser user) {
     	System.out.println(user.getName());
     	System.out.println("测试...postUser");

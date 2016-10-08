@@ -44,7 +44,9 @@
 	<aop:aspectj-autoproxy/>
 	
 	<!-- 配置dubbo服务 -->
+    
+
 	<import resource="classpath:dubbo-provider.xml" />
-	
+
 	
 </beans>
