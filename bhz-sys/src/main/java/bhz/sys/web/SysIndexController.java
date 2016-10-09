@@ -1,8 +1,12 @@
 package bhz.sys.web;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import bhz.sys.entity.SysUser;
+import bhz.sys.facade.SysUserFacade;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
@@ -16,7 +20,8 @@ import org.springframework.web.servlet.ModelAndView;
  */
 @Controller
 public class SysIndexController {
-	
+	@Resource
+    private SysUserFacade sysUserFacade;
 
 
 	/**
@@ -25,13 +30,15 @@ public class SysIndexController {
      * 
      * @param request 页面请求
      * @param response 页面响应
-     * @param dataYear 年份
+     * @param dateYear 年份
      * @return ModelAndView 模型视图
      */
     @RequestMapping("/sysindex.html")
     public ModelAndView index(HttpServletRequest request, HttpServletResponse response) {
         ModelAndView ret = new ModelAndView();
-        
+        System.out.println(this.sysUserFacade);
+        SysUser sysUser = this.sysUserFacade.getUser();
+        System.out.println(sysUser.getName());
         return ret;
     }
     
