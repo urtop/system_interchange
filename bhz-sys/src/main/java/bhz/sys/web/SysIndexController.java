@@ -1,15 +1,13 @@
 package bhz.sys.web;
 
-import javax.annotation.Resource;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
-import bhz.sys.entity.SysUser;
 import bhz.sys.facade.SysUserFacade;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
+
+import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 /**
  * <B>系统名称：</B><BR>
  * <B>模块名称：</B><BR>
@@ -34,11 +32,10 @@ public class SysIndexController {
      * @return ModelAndView 模型视图
      */
     @RequestMapping("/sysindex.html")
-    public ModelAndView index(HttpServletRequest request, HttpServletResponse response) {
+    public ModelAndView index(HttpServletRequest request, HttpServletResponse response) throws Exception {
         ModelAndView ret = new ModelAndView();
-        System.out.println(this.sysUserFacade);
-        SysUser sysUser = this.sysUserFacade.getUser();
-        System.out.println(sysUser.getName());
+        System.out.println(this.sysUserFacade.getById("admin"));
+        System.out.println(this.sysUserFacade.generateKey());
         return ret;
     }
     
