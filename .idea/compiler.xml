@@ -22,7 +22,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="bhz-com" />
+        <module name="bhz-mst-facade" />
+        <module name="bhz-mst-service" />
         <module name="bhz-sys" />
         <module name="bhz-sys-facade" />
         <module name="bhz-sys-service" />
@@ -31,6 +32,9 @@
     <bytecodeTargetLevel target="1.7">
       <module name="bhz-com" target="1.7" />
       <module name="bhz-facade" target="1.7" />
+      <module name="bhz-mst" target="1.7" />
+      <module name="bhz-mst-facade" target="1.7" />
+      <module name="bhz-mst-service" target="1.7" />
       <module name="bhz-parent" target="1.7" />
       <module name="bhz-sys" target="1.7" />
       <module name="bhz-sys-facade" target="1.7" />

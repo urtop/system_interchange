@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bhz-com/bhz-com.iml" filepath="$PROJECT_DIR$/bhz-com/bhz-com.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bhz-mst/bhz-mst.iml" filepath="$PROJECT_DIR$/bhz-mst/bhz-mst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bhz-mst-facade/bhz-mst-facade.iml" filepath="$PROJECT_DIR$/bhz-mst-facade/bhz-mst-facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bhz-mst-service/bhz-mst-service.iml" filepath="$PROJECT_DIR$/bhz-mst-service/bhz-mst-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/bhz-parent/bhz-parent.iml" filepath="$PROJECT_DIR$/bhz-parent/bhz-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/bhz-sys/bhz-sys.iml" filepath="$PROJECT_DIR$/bhz-sys/bhz-sys.iml" />
       <module fileurl="file://$PROJECT_DIR$/bhz-sys-facade/bhz-sys-facade.iml" filepath="$PROJECT_DIR$/bhz-sys-facade/bhz-sys-facade.iml" />

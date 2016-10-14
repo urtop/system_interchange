@@ -1,10 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <modules>
-        <module>../bhz-mst</module>
-        <module>../bhz-mst-service</module>
-    </modules>
+
     <!-- 继承父类 -->
     <parent>
         <groupId>bhz</groupId>
@@ -13,10 +10,11 @@
         <!-- 设置父类的绝对路径 -->
         <relativePath>../bhz-parent/pom.xml</relativePath>
     </parent>
-    <artifactId>bhz-com</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>bhz-mst-facade</artifactId>
+    <packaging>jar</packaging>
+
+    <name>bhz-mst-facade</name>
     <build>
-        <finalName>bhz-com</finalName>
+        <finalName>bhz-mst-facade</finalName>
     </build>
 </project>
-
