@@ -1,19 +1,17 @@
 package bhz.com.web;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
+import bhz.com.constant.Const;
+import bhz.com.dao.UserComDao;
+import bhz.com.util.ResponseUtils;
+import com.alibaba.fastjson.JSONObject;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import bhz.com.constant.Const;
-import bhz.com.dao.UserComDao;
-import bhz.com.util.ResponseUtils;
-
-import com.alibaba.fastjson.JSONObject;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 @Controller
 public class IndexController {
@@ -73,7 +71,6 @@ public class IndexController {
         		ret.setViewName("redirect:" + redirect);
         	}
         }
-        
         return ret;
     }
     

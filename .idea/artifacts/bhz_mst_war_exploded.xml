@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="bhz-sys:war exploded">
-    <output-path>$PROJECT_DIR$/bhz-sys/target/bhz-sys</output-path>
+  <artifact type="exploded-war" name="bhz-mst:war exploded">
+    <output-path>$PROJECT_DIR$/bhz-mst/target/bhz-mst</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="bhz-sys" />
+          <element id="module-output" name="bhz-mst" />
         </element>
         <element id="directory" name="lib">
           <element id="archive" name="bhz-com-0.0.1-SNAPSHOT.jar">
@@ -68,8 +68,8 @@
           <element id="library" level="project" name="Maven: de.javakaffee:kryo-serializers:0.26" />
           <element id="library" level="project" name="Maven: de.ruedigermoeller:fst:1.55" />
           <element id="library" level="project" name="Maven: org.jasig.cas.client:cas-client-core:3.1.12" />
-          <element id="archive" name="bhz-sys-facade-0.0.1-SNAPSHOT.jar">
-            <element id="module-output" name="bhz-sys-facade" />
+          <element id="archive" name="bhz-mst-facade-0.0.1-SNAPSHOT.jar">
+            <element id="module-output" name="bhz-mst-facade" />
           </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.1.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.1.5.RELEASE" />
@@ -133,9 +133,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/bhz-sys/target/bhz-sys/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/bhz-mst/target/bhz-mst/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="bhz-sys/web/Web" />
+      <element id="javaee-facet-resources" facet="bhz-mst/web/Web" />
     </root>
   </artifact>
 </component>

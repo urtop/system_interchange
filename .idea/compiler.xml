@@ -23,6 +23,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="bhz-com" />
+        <module name="bhz-mst" />
         <module name="bhz-mst-facade" />
         <module name="bhz-mst-service" />
         <module name="bhz-sys" />

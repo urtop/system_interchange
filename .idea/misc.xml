@@ -4,6 +4,7 @@
     <entry_points version="2.0" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/bhz-mst" />
     <file type="web" url="file://$PROJECT_DIR$/bhz-sys" />
   </component>
   <component name="MavenProjectsManager">
@@ -12,6 +13,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/bhz-parent/pom.xml" />
         <option value="$PROJECT_DIR$/bhz-com/pom.xml" />
+        <option value="$PROJECT_DIR$/bhz-mst/pom.xml" />
+        <option value="$PROJECT_DIR$/bhz-mst-facade/pom.xml" />
+        <option value="$PROJECT_DIR$/bhz-mst-service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
