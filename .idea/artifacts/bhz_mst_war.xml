@@ -3,11 +3,6 @@
     <output-path>$PROJECT_DIR$/bhz-mst/target</output-path>
     <root id="archive" name="bhz-mst.war">
       <element id="artifact" artifact-name="bhz-mst:war exploded" />
-      <element id="directory" name="WEB-INF">
-        <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: io.netty:netty:3.6.4.Final" />
-        </element>
-      </element>
     </root>
   </artifact>
 </component>

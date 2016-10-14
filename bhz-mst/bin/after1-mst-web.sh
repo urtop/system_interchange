@@ -1,8 +1,8 @@
 #!/bin/sh
 
 ## java env
-export JAVA_HOME=/usr/local/java/jdk1.7.0_72
-export JRE_HOME=$JAVA_HOME/jre
+export JAVA_HOME=/usr/lib/jvm/java-7-oracle
+export JRE_HOME=/usr/lib/jvm/java-7-oracle/jre/
 
 ## restart tomcat
 /usr/local/apache-tomcat-7.0.29/bin/shutdown.sh

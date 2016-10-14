@@ -16,6 +16,10 @@
         <module>../bhz-sys</module>
         <module>../bhz-sys-facade</module>
         <module>../bhz-sys-service</module>
+        <module>../bhz-mst</module>
+        <module>../bhz-mst-facade</module>
+        <module>../bhz-mst-service</module>
+
     </modules>
 
 

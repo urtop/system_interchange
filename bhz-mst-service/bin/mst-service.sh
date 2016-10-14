@@ -1,7 +1,7 @@
 #!/bin/sh
 ## java env
-export JAVA_HOME=/usr/local/jdk1.7
-export JRE_HOME=$JAVA_HOME/jre
+export JAVA_HOME=/usr/lib/jvm/java-7-oracle
+export JRE_HOME=/usr/lib/jvm/java-7-oracle/jre/
 
 ## exec shell name
 EXEC_SHELL_NAME=mst-service\.sh

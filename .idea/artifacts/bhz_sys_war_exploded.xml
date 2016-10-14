@@ -129,7 +129,6 @@
           <element id="library" level="project" name="Maven: javax.xml.bind:jsr173_api:1.0" />
           <element id="library" level="project" name="Maven: com.esotericsoftware.minlog:minlog:1.2" />
           <element id="library" level="project" name="Maven: org.objenesis:objenesis:2.1" />
-          <element id="library" level="project" name="Maven: io.netty:netty:3.6.4.Final" />
         </element>
       </element>
       <element id="directory" name="META-INF">
