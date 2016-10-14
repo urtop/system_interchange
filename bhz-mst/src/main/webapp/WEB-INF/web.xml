@@ -89,7 +89,7 @@
 	    <init-param>  
 	        <param-name>serverName</param-name> 
 	        <!--这里的server是服务端的IP-->   
-	        <param-value>http://192.168.1.134:8080</param-value>  
+	        <param-value>http://1.1.1.13:8080</param-value>
 	    </init-param>  
 	</filter>  
 	<filter-mapping>  
@@ -108,7 +108,7 @@
 	    </init-param>  
 	    <init-param>  
 	        <param-name>serverName</param-name>  
-	        <param-value>http://192.168.1.134:8080</param-value>  
+	        <param-value>http://1.1.1.13:8080</param-value>
 	    </init-param>  
 	</filter>  
 	<filter-mapping>  
